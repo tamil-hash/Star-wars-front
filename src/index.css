@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+  color: #fff !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  margin: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #310015, #8f1d1d);
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  overflow-y: scroll;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .search-input {
+  height: 35px;
+  width: 300px;
+  background-color: #9e5c60;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.header .search-input .ant-input {
+  background-color: #9e5c60;
+}
+
+.peoples-table .ant-table {
+  background-color: transparent;
+}
+
+.peoples-table .ant-table-thead tr th {
+  background-color: #9e5c6081;
+}
+
+.ant-table-empty .ant-table-tbody > tr.ant-table-placeholder,
+.ant-table-tbody > tr.ant-table-placeholder:hover > td,
+.ant-pagination-item-link,
+.ant-pagination-item,
+.ant-table-tbody > tr.ant-table-row:hover > td,
+.ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background-color: transparent !important;
+}
+
+.ant-pagination-item-active {
+  background: #9e5c60 !important;
+  border-color: #fff !important;
+}
+
+/* species data */
+
+.species-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.species-container .species-card {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #9e5c6081;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* error component */
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+
+.fa-lg {
+  width: 200px;
+  height: 200px;
+}
